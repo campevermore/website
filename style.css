@@ -107,6 +107,7 @@ nav > ul li > a:hover {
 main > section {
     position: relative;
     min-height: 100vh;
+    min-height: 100svh;
     background-size: cover;
     /* border-bottom: 2px solid black; */
 }
