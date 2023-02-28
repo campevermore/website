@@ -118,7 +118,7 @@ main > hr {
     margin: 0;
     padding: 0;
     background-color: black;
-    inset: none;
+    inset: unset;
     border: none;
 }
 main > section:last-of-type {
