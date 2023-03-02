@@ -108,6 +108,7 @@ main > section {
     position: relative;
     min-height: 100vh;
     min-height: 100svh;
+    background-position: 50% 50%;
     background-size: cover;
     /* border-bottom: 2px solid black; */
 }
@@ -293,7 +294,7 @@ main > section > .continue:hover > a > span {
 }
 
 /* Join Section */
-#join {
+#contact {
     background-image:
         linear-gradient(
           rgba(0, 0, 0, 0.5), 
@@ -301,10 +302,10 @@ main > section > .continue:hover > a > span {
         ),
         url("resources/splash4.jpg");
 }
-#join > .header > h3 {
+#contact > .header > h3 {
     margin-bottom: 1vh;
 }
-#join > .content {
+#contact > .content {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -316,12 +317,12 @@ main > section > .continue:hover > a > span {
     bottom: 20vh;
     margin: 0 10vw;
 }
-#join > .content > p {
+#contact > .content > p {
     font-size: 1.2em;
     flex-basis: 50%;
     text-shadow: 0px 0px 30px black;
 }
-#join > .content > .img-employees {
+#contact > .content > .img-employees {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -379,14 +380,14 @@ footer > p {
     #mission > .our-mission > .img-ceo {
         display: none;
     }
-    #join > .content {
+    #contact > .content {
         flex-direction: column-reverse;
         gap: 5vh;
     }
-    #join > .content > p {
+    #contact > .content > p {
         flex-basis: unset;
     }
-    #join > .content > .img-employees {
+    #contact > .content > .img-employees {
         height: unset;
         width: 90%;
         flex-basis: 40%;
