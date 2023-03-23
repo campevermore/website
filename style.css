@@ -434,4 +434,13 @@ footer > p {
     #goal > .our-goal {
         top: 20vh;
     }
+    #mission > .our-mission > p {
+        font-size: 1.2em;
+    }
+    #contact > .content > p {
+        font-size: 1.2em;
+    }
+    #contact > .content a {
+        font-size: 1em;
+    }
 }
