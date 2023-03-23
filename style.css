@@ -217,6 +217,8 @@ main > section > .continue:hover > a > span {
     text-align: center;
     width: 100%;
     padding-top: 30vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 #main > #headline > h2 {
     margin-bottom: 10px;
@@ -360,9 +362,38 @@ footer > p {
     padding: 0 5vw;
 }
 
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 2.8em;
+    }
+    h3 {
+        font-size: 2.2em;
+    }
+    h4 {
+        font-size: 1.4em;
+    }
+    p, a {
+        font-size: 1.4em;
+    }
+    #mission > .our-mission > p {
+        font-size: 1.4em;
+    }
+    #contact > .content > p {
+        font-size: 1.4em;
+    }
+    #contact > .content a {
+        font-size: 1em;
+    }
+}
 @media (max-width: 400px) {
     html, body {
         overflow-x: hidden !important;
+    }
+    p, a {
+        font-size: 1.2em;
     }
     nav {
         margin: 0 !important;
@@ -392,5 +423,15 @@ footer > p {
         width: 90%;
         flex-basis: 40%;
         margin-top: 5vh;
+    }
+    #main > #headline {
+        padding-top: 25vh;
+    }
+    #main > .next,
+    #goal > .next {
+        bottom: 20vh;
+    }
+    #goal > .our-goal {
+        top: 20vh;
     }
 }
